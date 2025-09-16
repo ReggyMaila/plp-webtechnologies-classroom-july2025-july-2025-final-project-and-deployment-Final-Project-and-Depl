@@ -1,0 +1,53 @@
+# Contoso Conference Website
+
+Welcome to the **Contoso Conference** website project! This multipage website is built using **HTML5, CSS3, and JavaScript** to provide conference information, registration, live updates, feedback, schedules, location details, and speaker information for attendees.
+
+---
+
+## 📌 Project Purpose
+
+The Contoso Conference website serves as the official online hub for attendees, speakers, and organizers. Its main objectives are to:
+
+- Share **event information** (`index.html`, `about.html`, `schedule.html`, `location.html`)  
+- Allow users to **register** and confirm attendance (`register.html`, `registered.html`)  
+- Provide **live updates** and announcements during the event (`live.html`)  
+- Collect **feedback** from attendees (`feedback.html`)  
+- Showcase **speakers** with badges and profiles (`speaker-badge.html`)  
+
+This project demonstrates **responsive web design, multi-page navigation, and interactive forms**.
+
+---
+
+## 🌐 Pages Overview
+
+| Page | Description |
+|------|-------------|
+| `index.html` | Home page with an overview of the conference and key highlights. |
+| `about.html` | About the conference, mission, and organizing team. |
+| `schedule.html` | Conference schedule with session timings and details. |
+| `location.html` | Venue location with maps and directions. |
+| `register.html` | Registration form for attendees. |
+| `registered.html` | Confirmation page or list of registered attendees. |
+| `live.html` | Live announcements or streaming information. |
+| `feedback.html` | Feedback form for attendees to submit comments or ratings. |
+| `speaker-badge.html` | Profiles of speakers with badge information and photos. |
+
+
+- `/css/style.css` — Main stylesheet for all pages  
+- `/js/main.js` — JavaScript for interactivity, form validation, and dynamic content  
+- `/images/` — Contains logo, banner images, and speaker photos  
+
+---
+
+## ⚡ Features
+
+- Fully **responsive design** for mobile and desktop  
+- **Navigation menu** shared across all pages  
+- Interactive **forms** with client-side validation (`register`, `feedback`, `contact`)  
+- **Dynamic registration confirmation** and feedback messages  
+- Speaker badges with images and info (`speaker-badge.html`)  
+- Structured HTML for **accessibility and SEO**  
+- Consistent **header/footer** across pages  
+
+---
+
