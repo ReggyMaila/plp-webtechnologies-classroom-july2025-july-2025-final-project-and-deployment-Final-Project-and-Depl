@@ -1,0 +1,56 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Conference — Register</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="register.html">Conf<span class="accent">2025</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">☰</button>
+      <nav id="primary-nav" class="primary-nav">
+        <a href="index.html">Home</a>
+        <a href="location.html">Location</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="speaker_badge.html">Speaker Badge</a>
+        <a href="register.html">Register</a>
+        <a href="feedback.html">Feedback</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Register</h1>
+    <form id="register-form" class="form-card">
+      <label>Full name<br><input name="fullname" required></label>
+      <label>Email<br><input name="email" type="email" required></label>
+      <label>Phone<br><input name="phone" type="tel"></label>
+      <label>Ticket Type<br>
+        <select name="ticket">
+          <option>General</option>
+          <option>Student</option>
+          <option>VIP</option>
+        </select>
+      </label>
+      <p><button class="btn" type="submit">Complete Registration</button></p>
+    </form>
+
+    <div id="register-result" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-5"></span> Conf2025</p>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,58 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Conference — Feedback</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="feedback.html">Conf<span class="accent">2025</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">☰</button>
+      <nav id="primary-nav" class="primary-nav">
+        <a href="index.html">Home</a>
+        <a href="location.html">Location</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="speaker_badge.html">Speaker Badge</a>
+        <a href="register.html">Register</a>
+        <a href="feedback.html">Feedback</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Send Feedback</h1>
+    <form id="feedback-form" class="form-card">
+      <label>Your name (optional)<br><input name="name"></label>
+      <label>Your email (optional)<br><input name="email" type="email"></label>
+      <label>Message<br><textarea name="message" required rows="6"></textarea></label>
+      <label>Rating<br>
+        <select name="rating">
+          <option value="5">5 — Excellent</option>
+          <option value="4">4 — Good</option>
+          <option value="3">3 — Okay</option>
+          <option value="2">2 — Poor</option>
+          <option value="1">1 — Very poor</option>
+        </select>
+      </label>
+      <p><button class="btn" type="submit">Send Feedback</button></p>
+    </form>
+
+    <div id="feedback-result" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-6"></span> Conf2025</p>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+

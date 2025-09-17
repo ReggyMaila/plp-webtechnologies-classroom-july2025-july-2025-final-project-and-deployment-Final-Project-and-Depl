@@ -1,0 +1,50 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Conference — Speaker Badge</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="speaker_badge.html">Conf<span class="accent">2025</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">☰</button>
+      <nav id="primary-nav" class="primary-nav">
+        <a href="index.html">Home</a>
+        <a href="location.html">Location</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="speaker_badge.html">Speaker Badge</a>
+        <a href="register.html">Register</a>
+        <a href="feedback.html">Feedback</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Generate Speaker Badge</h1>
+    <form id="badge-form" class="form-card">
+      <label>Name<br><input name="name" required placeholder="Full name"></label>
+      <label>Title / Role<br><input name="title" placeholder="e.g. CTO, Designer"></label>
+      <label>Company<br><input name="company" placeholder="Company name"></label>
+      <label>Photo URL (optional)<br><input name="photo" placeholder="https://..."></label>
+      <p><button class="btn" type="submit">Create Badge</button> <button id="print-btn" class="btn ghost" type="button">Print</button></p>
+    </form>
+
+    <div id="badge-output" class="badge-output" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-4"></span> Conf2025</p>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
